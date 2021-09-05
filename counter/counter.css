@@ -1,0 +1,60 @@
+body,html{
+    background-color: bisque;
+    height: 100%;
+    font-family: 'Crimson Text', serif;
+
+}
+#container{  
+   border: 1px solid saddlebrown;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 30vw;
+}
+h1{
+    margin-top: 5%;
+    text-align: center;
+    color: brown;
+}
+#number{
+    height: 50px;
+    width: 80%;
+    padding: 10px 10px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20pt;
+    font-weight: 700;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+button{
+    width: 45%;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+#add:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+#decrease:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+@media only screen and (max-width: 470px) {
+    #container{
+        width: 50vw;
+    }
+  }
